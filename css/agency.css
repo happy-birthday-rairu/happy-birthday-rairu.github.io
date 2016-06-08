@@ -366,7 +366,7 @@ section h3.section-subheading {
 #message .message-item .message-link {
     display: block;
     position: relative;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto
 }
 #message .message-item .message-link .message-hover {
@@ -376,7 +376,6 @@ section h3.section-subheading {
     height: 100%;
     opacity: 0;
     transition: all ease .5s;
-    border-radius: 5px;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s
 }
