@@ -370,7 +370,7 @@ section h3.section-subheading {
     margin: 0 auto
 }
 #message .message-item .message-link .message-hover {
-    background: rgba(254, 209, 54, .9);
+    background: rgba(211, 208, 244, .9);
     position: absolute;
     width: 100%;
     height: 100%;
