@@ -360,13 +360,13 @@ section h3.section-subheading {
     }
 }
 #message .message-item {
-    margin: 0 0 30px;
+    margin: 0 0 20px;
     right: 0
 }
 #message .message-item .message-link {
     display: block;
     position: relative;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto
 }
 #message .message-item .message-link .message-hover {
