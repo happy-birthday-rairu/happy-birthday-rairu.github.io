@@ -360,7 +360,7 @@ section h3.section-subheading {
     }
 }
 #message .message-item {
-    margin: 0 0 15px;
+    margin: 0 0 30px;
     right: 0
 }
 #message .message-item .message-link {
@@ -376,6 +376,7 @@ section h3.section-subheading {
     height: 100%;
     opacity: 0;
     transition: all ease .5s;
+    border-radius: 5px;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s
 }
