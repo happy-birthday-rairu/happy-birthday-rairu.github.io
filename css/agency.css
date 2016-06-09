@@ -777,7 +777,7 @@ ul.social-buttons li a:active {
 
 .message-modal .message-content {
     border-radius: 0;
-    background-image: url(img/message/letter2.png);
+    background-image: url(..img/message/letter2.png);
     border: 0;
     min-height: 100%;
     padding: 100px 0;
