@@ -778,6 +778,7 @@ ul.social-buttons li a:active {
 .message-modal .message-content {
     border-radius: 0;
     background-clip: border-box;
+    background-image: url(img/message/letter2.png);
     -webkit-box-shadow: none;
     box-shadow: none;
     border: 0;
