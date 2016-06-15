@@ -775,12 +775,14 @@ ul.social-buttons li a:active {
     display: none
 }
 
-.message-modal .message-content {
+.message-modal .modal-content {
     border-radius: 0;
-    background-image: url(..img/message/letter2.png);
+    background-image: url('../img/message/letter2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 0;
+    padding: 100px 100px 100px 100px;
     min-height: 100%;
-    padding: 100px 0;
     text-align: center
 }
 .message-modal .modal-content h2 {
