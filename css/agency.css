@@ -218,17 +218,28 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 header {
+     width: 100%;
+    height: 100vh;
+    margin-bottom: 5rem;
+    overflow: hidden;
     background-image: url(../img/header-bg.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    color: #fff
+    color: #fff;
 }
+
+header .header-image{
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px
@@ -787,17 +798,15 @@ ul.social-buttons li a:active {
     background-position: center;
 }
 .message-modal .modal-content h2 {
-    margin-top:50px; 
+    margin-top:20px; 
     margin-bottom: 15px;
-    font-size: 3em
 }
 .message-modal .modal-content p {
     margin-bottom: 30px
 }
 .message-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
+    font-family: "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "Yu Gothic" , "YuGothic", "Hiragino Kaku Gothic Pro" , "Meiryo UI" , Meiryo , "MS PGothic" , sans-serif !important;
     font-size: 16px
 }
 .message-modal .modal-content ul.list-inline {
