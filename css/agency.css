@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:"Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "Yu Gothic" , "YuGothic", "Hiragino Kaku Gothic Pro" , "Meiryo UI" , Meiryo , "MS PGothic" , sans-serif !important;
     text-transform: uppercase;
     font-weight: 700
 }
@@ -231,7 +231,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #1060bc
 }
 
 header .header-image{
@@ -312,7 +312,7 @@ section h3.section-subheading {
     margin: 0 auto
 }
 #drawing .drawing-item .drawing-link .drawing-hover {
-    background: rgba(254, 209, 54, .9);
+    background: #A8DADC;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -723,7 +723,7 @@ ul.social-buttons li a:active {
     box-shadow: none;
     border: 0;
     min-height: 100%;
-    padding: 100px 0;
+    padding: 0px 0;
     text-align: center
 }
 .drawing-modal .modal-content h2 {
