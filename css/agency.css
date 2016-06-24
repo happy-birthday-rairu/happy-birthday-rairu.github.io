@@ -796,6 +796,7 @@ ul.social-buttons li a:active {
     max-width:1000px;
     background-size: cover;
     background-position: center;
+     overflow-y: scroll;
 }
 .message-modal .modal-content h2 {
     margin-top:20px; 
