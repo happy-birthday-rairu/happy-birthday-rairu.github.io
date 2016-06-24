@@ -45,7 +45,7 @@ h6 {
     margin: 0 auto
 }
 .bg-light-gray {
-    background-color: blanchedalmond;
+    background-color: lightcyan;
 }
 .bg-darkest-gray {
     background-color: #222
@@ -298,8 +298,8 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
     section {
-        padding: 50px 0;
-        background-color: aliceblue;
+        padding: 100px 0;
+        background-color: cornsilk;
     }
 }
 #drawing .drawing-item {
@@ -411,7 +411,7 @@ section h3.section-subheading {
 #message .message-item .message-caption {
     max-width: 400px;
     margin: 0 auto;
-    background-color: aliceblue;
+    background-color: cornsilk;
     text-align: center;
     padding: 25px
 }
@@ -736,8 +736,7 @@ ul.social-buttons li a:active {
 }
 .drawing-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
+    font-family:  Arial, sans-serif;
     font-size: 16px
 }
 .drawing-modal .modal-content ul.list-inline {
