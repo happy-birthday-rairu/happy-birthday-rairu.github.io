@@ -506,6 +506,71 @@ section h3.section-subheading {
         margin: 0 0 40px
     }
 }
+#photo .photo-item {
+    margin: 0 0 15px;
+    right: 0
+}
+#photo .photo-item .photo-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto
+}
+#photo .photo-item .photo-link .photo-hover {
+    background: #A8DADC;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s
+}
+#photo .photo-item .photo-link .photo-hover:hover {
+    opacity: 1
+}
+#photo .photo-item .photo-link .photo-hover .photo-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff
+}
+#photo .photo-item .photo-link .photo-hover .photo-hover-content i {
+    margin-top: -12px
+}
+#photo .photo-item .photo-link .photo-hover .photo-hover-content h3,
+#photo .photo-item .photo-link .photo-hover .photo-hover-content h4 {
+    margin: 0
+}
+#photo .photo-item .photo-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px
+}
+#photo .photo-item .photo-caption h4 {
+    text-transform: none;
+    margin: 0
+}
+#photo .photo-item .photo-caption p {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: 0
+}
+#photo * {
+    z-index: 2
+}
+@media (min-width: 767px) {
+    #photo .photo-item {
+        margin: 0 0 30px
+    }
+}
 .timeline {
     list-style: none;
     padding: 0;
@@ -924,6 +989,71 @@ ul.social-buttons li a:active {
     opacity: 0;
     display: none
 }
+.photo-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    min-height: 100%;
+    padding: 0px 0;
+    text-align: center
+}
+.photo-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em
+}
+.photo-modal .modal-content p {
+    margin-bottom: 30px
+}
+.photo-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family:  Arial, sans-serif;
+    font-size: 16px
+}
+.photo-modal .modal-content ul.list-inline {
+    margin-bottom: 30px;
+    margin-top: 0
+}
+.photo-modal .modal-content img {
+    margin-bottom: 30px
+}
+.photo-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer
+}
+.photo-modal .close-modal:hover {
+    opacity: .3
+}
+.photo-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #222;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 1051
+}
+.photo-modal .close-modal .lr .rl {
+    height: 75px;
+    width: 1px;
+    background-color: #222;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    z-index: 1052
+}
+.photo-modal .modal-backdrop {
+    opacity: 0;
+    display: none
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #e6ffe6

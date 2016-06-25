@@ -69,6 +69,10 @@
                     <li>
                         <a class="page-scroll" href="#message">メッセージ</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#photo">写真</a>
+                    </li>
+                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -79,7 +83,7 @@
     <!-- Header -->
         <header id="main" style="width:100%">
             <div class="container">
-                <div class="intro-text">                   
+                <div class="intro-text">                
                 </div>
 
             </div>
@@ -243,6 +247,61 @@
                         <div class="message-caption">
                             <h4>name</h4>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="photo" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">写真</h2>
+                    <h3 class="section-subheading text-muted">around the world</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 photo-item">
+                    <a href="#photoModal1" class="photo-link" data-toggle="modal">
+                        <div class="photo-hover">
+                            <div class="photo-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/message/letter3_small.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="photo-caption">
+                        <h4>Mai</h4>
+                        <p class="text-muted">weibo: @Mai酱_akimoto</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 photo-item">
+                    <a href="#photoModal2" class="photo-link" data-toggle="modal">
+                        <div class="photo-hover">
+                            <div class="photo-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/message/letter4_small.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="photo-caption">
+                        <h4>V</h4>
+                        <p class="text-muted">weibo: @rairu不足-rairu不足-rairu不足</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 photo-item">
+                    <a href="#photoModal3" class="photo-link" data-toggle="modal">
+                        <div class="photo-hover">
+                            <div class="photo-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/illustration/small/hoshinouta.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="photo-caption">
+                        <h4>雪猫</h4>
+                        <p class="text-muted">weibo: @Yukinoneko</p>
                     </div>
                 </div>
             </div>
@@ -470,7 +529,7 @@
                         <div class="modal-body">
                         <div class="col-lg-10 col-lg-offset-2">
                         <!-- Message Details Go Here -->
-                        <h2>らいるくんへ<a href="https://twitter.com"><i class="fa fa-twitter" style="padding-left:1em"></i></a></h2>
+                        <h2><a href="http://www.weibo.com/"><i class="fa fa-weibo" style="padding-left:1em"></i></a></h2>
                         <p class="item-intro text-muted">
                         <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> 閉じる</button> </p>              
                         </div>
@@ -497,7 +556,54 @@
             </div>
         </div>
     </div>
-
+ <!-- photo Modal 1 -->
+    <div class="photo-modal modal fade" id="photoModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <img class="img-responsive img-centered" src="img/message/letter3.jpg" alt="">
+                            <h2></h2>
+                            <p class="item-intro text-muted">Mai <a href="http://www.weibo.com/u/1785799722"><i class="fa fa-weibo"style="padding-left:10px">weibo</i></a></p>                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- photo Modal 2 -->
+    <div class="photo-modal modal fade" id="photoModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <img class="img-responsive img-centered" src="img/message/letter4.JPG" alt="">
+                            <h2></h2>
+                            <p class="item-intro text-muted">V <a href="http://www.weibo.com/u/5149799106"><i class="fa fa-weibo"style="padding-left:10px">weibo</i></a></p>                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
