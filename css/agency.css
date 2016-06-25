@@ -48,7 +48,7 @@ h6 {
     background-color: lightcyan;
 }
 .bg-darkest-gray {
-    background-color: #222
+    background-color: cornsilk;
 }
 .btn-primary {
     color: #fff;
@@ -142,7 +142,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff
 }
 .navbar-default {
-    background-color: #222;
+    background-color: #9AE0BF;
     border-color: transparent
 }
 .navbar-default .navbar-brand {
@@ -783,20 +783,20 @@ ul.social-buttons li a:active {
 }
 
 .message-modal .modal-content {
-    margin: 0 auto;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     background-image: url('../img/message/letter2.png');
     background-repeat: no-repeat;
-    width:80%;
-    height: 80%;
-    max-height: 612px;
-    max-width:1000px;
+    width:90%;
+    height: 90%;
+    max-height: 611px;
+    max-width:998px;
     background-size: cover;
     background-position: center;
     overflow-y:  auto;
+    overflow-x:hidden;
 }
 .message-modal .modal-content h2 {
     margin-top:20px; 
@@ -853,11 +853,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136
+    background: #e6ffe6
 }
 ::selection {
     text-shadow: none;
-    background: #E59A32
+    background: #e6ffe6
 }
 img::selection {
     background: 0 0
@@ -866,5 +866,5 @@ img::-moz-selection {
     background: 0 0
 }
 body {
-    webkit-tap-highlight-color: #fed136
+    webkit-tap-highlight-color:#e6ffe6
 }
