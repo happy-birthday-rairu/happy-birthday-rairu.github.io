@@ -196,6 +196,34 @@
                         <p class="text-muted">weibo: @墟儿_Ariko</p>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 drawing-item">
+                    <a href="#drawingModal7" class="drawing-link" data-toggle="modal">
+                        <div class="drawing-hover">
+                            <div class="drawing-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/illustration/small/quan.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="drawing-caption">
+                        <h4>泉</h4>
+                        <p class="text-muted">twitter: @acernegundoL</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 drawing-item">
+                    <a href="#drawingModal8" class="drawing-link" data-toggle="modal">
+                        <div class="drawing-hover">
+                            <div class="drawing-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/illustration/small/chacha.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="drawing-caption">
+                        <h4>Haniel</h4>
+                        <p class="text-muted">weibo: @冰镇茶茶_</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -232,7 +260,7 @@
                             <img src="img/message/letter1.png" class="img-responsive" alt="">
                         </a>
                         <div class="message-caption">
-                            <h4>name</h4>
+                            <h4>reiao</h4>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 message-item">
@@ -297,11 +325,39 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/illustration/small/hoshinouta.jpg" class="img-responsive" alt="">
+                        <img src="img/message/letter5_small.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="photo-caption">
-                        <h4>雪猫</h4>
-                        <p class="text-muted">weibo: @Yukinoneko</p>
+                        <h4>生菜虾仁粥</h4>
+                        <p class="text-muted">email: jmillefiore@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 photo-item">
+                    <a href="#photoModal4" class="photo-link" data-toggle="modal">
+                        <div class="photo-hover">
+                            <div class="photo-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/message/letter6_small.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="photo-caption">
+                        <h4>生菜虾仁粥</h4>
+                        <p class="text-muted">email: jmillefiore@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 photo-item">
+                    <a href="#photoModal5" class="photo-link" data-toggle="modal">
+                        <div class="photo-hover">
+                            <div class="photo-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/message/letter7_small.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="photo-caption">
+                        <h4>泉</h4>
+                        <p class="text-muted">twitter: @acernegundoL</p>
                     </div>
                 </div>
             </div>
@@ -316,25 +372,34 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li><a><i class="fa fa-twitter" onclick="Twitter()"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a><i class="fa fa-facebook" onclick="Facebook()"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-weibo"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a><i class="fa fa-weibo" onclick="Weibo()"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+    <script>
+    function Facebook() {
+    window.open("https://www.facebook.com/sharer/sharer.php?u=http%3A//happy-birthday-rairu.github.io/");
+    }
+</script>
+<script>
+    function Twitter(){
+        window.open("https://twitter.com/home?status=http%3A//happy-birthday-rairu.github.io/");
+    }
+</script>
+<script>
+    function Weibo()
+    {
+        window.open("http://service.weibo.com/share/share.php?url=http://happy-birthday-rairu.github.io/&appkey=&title=%E5%88%86%E4%BA%ABrairu%E7%94%9F%E8%B4%BA&pic=&ralateUid=&language=zh_cn");
+    }
+</script>
+
 
     <!-- drawing Modals -->
     <!-- Use the modals below to showcase details about your drawing projects! -->
@@ -380,7 +445,7 @@
                             <!-- Project Details Go Here -->
                             <img class="img-responsive img-centered" src="img/illustration/aikotoba.png" alt="">
                             <h2>愛言葉</h2>
-                            <p class="item-intro text-muted">雪猫 <a href="http://www.weibo.com/Yukinoneko"><i class="fa fa-twitter"style="padding-left:10px">weibo</i></a></p>                            
+                            <p class="item-intro text-muted">雪猫 <a href="http://www.weibo.com/Yukinoneko"><i class="fa fa-weibo"style="padding-left:10px">weibo</i></a></p>                            
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
                         </div>
                     </div>
@@ -405,7 +470,7 @@
                             <!-- Project Details Go Here -->
                             <img class="img-responsive img-centered" src="img/illustration/hoshinouta.png" alt="">
                             <h2>星の唄</h2>
-                            <p class="item-intro text-muted">雪猫 <a href="http://www.weibo.com/Yukinoneko"><i class="fa fa-twitter"style="padding-left:10px">weibo</i></a></p>                            
+                            <p class="item-intro text-muted">雪猫 <a href="http://www.weibo.com/Yukinoneko"><i class="fa fa-weibo"style="padding-left:10px">weibo</i></a></p>                            
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
                         </div>
                     </div>
@@ -430,7 +495,7 @@
                             <!-- Project Details Go Here -->
                             <img class="img-responsive img-centered" src="img/illustration/michi.jpg" alt="">
                             <h2>僕たちの道</h2>
-                            <p class="item-intro text-muted">酥条 <a href="http://www.weibo.com/237038456"><i class="fa fa-twitter"style="padding-left:10px">weibo</i></a></p>                            
+                            <p class="item-intro text-muted">酥条 <a href="http://www.weibo.com/237038456"><i class="fa fa-weibo"style="padding-left:10px">weibo</i></a></p>                            
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
                         </div>
                     </div>
@@ -455,7 +520,7 @@
                            <!-- Project Details Go Here -->
                             <img class="img-responsive img-centered" src="img/illustration/koi.jpg" alt="">
                             <h2>僕たちが恋をする理由</h2>
-                            <p class="item-intro text-muted">酥条 <a href="http://www.weibo.com/237038456"><i class="fa fa-twitter"style="padding-left:10px">weibo</i></a></p> <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
+                            <p class="item-intro text-muted">酥条 <a href="http://www.weibo.com/237038456"><i class="fa fa-weibo"style="padding-left:10px">weibo</i></a></p> <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
                         </div>
                     </div>
                 </div>
@@ -479,7 +544,7 @@
                            <!-- Project Details Go Here -->
                             <img class="img-responsive img-centered" src="img/illustration/prince.jpg" alt="">
                             <h2></h2>
-                            <p class="item-intro text-muted">非鬼 <a href="http://www.weibo.com/u/3186210700"><i class="fa fa-twitter"style="padding-left:10px">weibo</i></a></p>                            
+                            <p class="item-intro text-muted">非鬼 <a href="http://www.weibo.com/u/3186210700"><i class="fa fa-weibo"style="padding-left:10px">weibo</i></a></p>                            
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
                         </div>
                     </div>
@@ -487,6 +552,55 @@
             </div>
         </div>
     </div>
+       <!-- drawing Modal 7 -->
+    <div class="drawing-modal modal fade" id="drawingModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-30">
+                            <div class="modal-body">
+                           <!-- Project Details Go Here -->
+                            <img class="img-responsive img-centered" src="img/illustration/quan.jpg" alt="">
+                            <h2></h2>
+                            <p class="item-intro text-muted">泉 <a href="https://twitter.com/acernegundoL"><i class="fa fa-twitter"style="padding-left:10px">twitter</i></a></p>                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+         <!-- drawing Modal 8 -->
+    <div class="drawing-modal modal fade" id="drawingModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                            <div class="modal-body">
+                           <!-- Project Details Go Here -->
+                            <img class="img-responsive img-centered" src="img/illustration/chacha.jpg" alt="">
+                            <h2></h2>
+                            <p class="item-intro text-muted">Haniel <a href="http://www.weibo.com/u/5603249162"><i class="fa fa-weibo"style="padding-left:10px">weibo</i></a></p>                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     
         <!-- Message Modal 1 -->
     <div class="message-modal modal fade" id="messageModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -529,9 +643,10 @@
                         <div class="modal-body">
                         <div class="col-lg-10 col-lg-offset-2">
                         <!-- Message Details Go Here -->
-                        <h2><a href="http://www.weibo.com/"><i class="fa fa-weibo" style="padding-left:1em"></i></a></h2>
-                        <p class="item-intro text-muted">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal" ><i class="fa fa-times"></i> 閉じる</button> </p>              
+                        <h2>reiao<a href="http://www.weibo.com/u/2208108450"><i class="fa fa-weibo" style="padding-left:1em"></i></a></h2>
+                        <p class="item-intro text-muted" style="margin-top:80px; font-size: 18px">
+                            らいるくん、お誕生日おめでとうございます。いつもありがとうございます(*˃ᴗ˂*)<br> らいるくんの歌大好きです！<br>ライブも何回行きました！本当に素敵でした！(◍´꒳`◍)<br> これからも応援します！<br>頑張ってください！<br> では、改めてお誕生日おめでとうございます！ <br>素敵な一年になりますように！(๑˃̵ᴗ˂̵)و <br>早く彼女をできますように！www <br>ピアノを上手になれますように！(•̀.̫•́)✧<br>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" style="margin-top:20px;"><i class="fa fa-times"></i> 閉じる</button> </p>              
                         </div>
                     </div>
                 </div>
@@ -597,6 +712,78 @@
                             <img class="img-responsive img-centered" src="img/message/letter4.JPG" alt="">
                             <h2></h2>
                             <p class="item-intro text-muted">V <a href="http://www.weibo.com/u/5149799106"><i class="fa fa-weibo"style="padding-left:10px">weibo</i></a></p>                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- photo Modal 3 -->
+    <div class="photo-modal modal fade" id="photoModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <img class="img-responsive img-centered" src="img/message/letter5.jpg" alt="">
+                            <h2></h2>
+                            <p class="item-intro text-muted">生菜虾仁粥</p>                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- photo Modal 4 -->
+    <div class="photo-modal modal fade" id="photoModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <img class="img-responsive img-centered" src="img/message/letter6.jpg" alt="">
+                            <h2></h2>
+                            <p class="item-intro text-muted">生菜虾仁粥</p>                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- photo Modal 2 -->
+    <div class="photo-modal modal fade" id="photoModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <img class="img-responsive img-centered" src="img/message/letter7.jpeg" alt="">
+                            <h2></h2>
+                            <p class="item-intro text-muted">泉 <a href="https://twitter.com/acernegundoL"><i class="fa fa-twitter"style="padding-left:10px">twitter</i></a></p>                            
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
                         </div>
                     </div>
